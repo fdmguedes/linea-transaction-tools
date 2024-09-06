@@ -1,0 +1,13 @@
+{
+  "name": "linea-transaction-tools",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0",
+    "web3": "^4.12.1"
+  }
+}
