@@ -11,7 +11,7 @@ This project contains scripts for estimating gas on the Linea network using Infu
 
 1. Clone the repository:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/fdmguedes/linea-transaction-tools
    cd linea-transaction-tools
    
 2. Install dependencies:
