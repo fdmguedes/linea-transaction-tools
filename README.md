@@ -38,3 +38,26 @@ This script estimates the gas for a simple transaction using the `eth_estimateGa
    ```bash
    Estimated Gas (Hex): 0xd221
    Estimated Gas (Decimal): 53793
+
+### Part 2: Canonical Token Bridge Script
+
+This script retrieves a `MessageSent` event from a transaction made using the Linea canonical token bridge from L1 to L2. It extracts and displays the following details from the transaction: sender, destination, fee, value, message nonce, calldata, and message hash.
+
+#### Running the Canonical Token Bridge Script
+
+1. Navigate to the `part-2/` directory:
+   ```bash
+   cd part-2
+2. Run the script
+   ```bash
+   node index.js
+3. Expected output
+   ```bash
+   Message Details:
+   sender: 0x0bFD8d4Be59184C177996b98e42DE1e0F4866b64
+   destination: 0x0bFD8d4Be59184C177996b98e42DE1e0F4866b64
+   fee: 0.000012720001484 ETH
+   value: 2.557 ETH
+   messageNonce: 701941
+   calldata: None
+   messageHash: 0x0000000000000000000000000000000000000000000000000000000000000000
