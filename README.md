@@ -33,7 +33,7 @@ This script estimates the gas for a simple transaction using the `eth_estimateGa
    cd part-1
 2. Run the script
    ```bash
-   npm start
+   node index.js
 3. Expected output
    ```bash
    Estimated Gas (Hex): 0xd221
